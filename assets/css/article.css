@@ -1,0 +1,128 @@
+.business .business article.box.grid-item, .ashfords .business article.box.grid-item {
+    background-color: #9aa4a9;
+    background-color: #328fba;
+}
+.business .box, .ashfords .box {
+    background-color: #328fba;
+}
+article.box {
+    min-height: 285px;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+article {
+    display: block;
+}
+.grid-theme-0 .business article.box.grid-item span {
+    background-color: rgba(18,109,151,.9);
+    color: #fff;
+}
+.business .business article.box.grid-item span, .ashfords .business article.box.grid-item span {
+    background-color: #126d97;
+}
+article.box.grid-item span {
+    opacity: 1;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    background: #f00;
+    padding: 5px 8px;
+    font-size: 1.4rem;
+    font-size: 14px\9;
+}
+.business article span {
+    color: #fff;
+}
+.grid-theme-0 .business article.box.grid-item .cta {
+    background-color: rgba(18,109,151,.9);
+}
+.business .box .cta, .ashfords .box .cta {
+    background-color: rgba(18,109,151,.9);
+}
+article.box .cta {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    position: absolute;
+    padding: 0 20px;
+    padding-bottom: 150px;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    top: 195px;
+    bottom: 0;
+    min-height: 500px;
+}
+.grid-theme-0 .business article.box.grid-item .cta:before {
+    opacity: 1;
+    border-color: transparent transparent transparent rgba(18,109,151,.9);
+}
+.business .box .cta:before, .ashfords .box .cta:before {
+    border-color: transparent transparent transparent #126d97;
+    opacity: .9;
+}
+article.box .cta:before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 0 0 768px;
+    position: absolute;
+    top: -50px;
+    right: 0;
+    content: " ";
+}
+.grid-theme-0 .business article.box.grid-item .cta a, .grid-theme-0 .business article.box.grid-item .cta p {
+    color: #fff !important;
+}
+article.box .cta p:first-child {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin: 5px 0 45px 0;
+    position: relative;
+    font-size: 1rem;
+    font-size: 16px\9;
+    height: 45px;
+    overflow: hidden;
+}
+.business .box .cta p, .ashfords .box .cta p, .business .box .cta .text-link, .ashfords .box .cta .text-link, .business .box .cta a, .ashfords .box .cta a {
+    color: #fff;
+}
+article.box .cta p {
+    padding: 0 0 10px 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    height: 110px;
+}
+article.box .cta .text-link {
+    height: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 15px;
+}
+article.box .cta:hover, article.box .cta.active {
+    top: 0;
+    bottom: auto;
+    padding-top: 25px;
+}
+.grid-theme-0{
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0% 0 20px 2%;
+}
