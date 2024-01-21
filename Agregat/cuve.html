@@ -118,7 +118,7 @@
             <div class="xzoom-container">
                 <div class="xzoom-thumbs">
                   <a href="../cuve.jpg">
-                    <img class="xzoo-gallery" width="380" height="380" src="../assets/img/Locaaabati/pro.jpg" xpreview="../cuve.jpg">
+                    <img class="xzoo-gallery"  height="380"  src="../assets/img/Locaaabati/pro.jpg" xpreview="../cuve.jpg">
                   </a>
                 </div>
               </div>
@@ -197,6 +197,25 @@
         margin-right: 7.5cm;
       }
     }
+
+
+
+
+
+    @media only screen and (max-width: 320px) {
+    .xzoo-gallery {
+      max-width: 320px; /* ajustement pour les petits écrans */
+    }
+  }
+
+/* Pour les grands écrans comme les PC */
+@media only screen and (min-width: 321px) {
+  .xzoo-gallery {
+    width: 380px;
+
+    margin-right: 3cm;
+  }
+}
   </style>
   
   <footer id="footer">
